@@ -49,6 +49,7 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
+    width: 100%;
 }
 .row1{
     display: flex;
@@ -70,17 +71,21 @@ a:hover{
 .box2{
     background-image: url('image/pic1.png');
     background-repeat: no-repeat;
-    padding: 90px;
+    padding: 90px; 
+    width: 100%;
+
 }
 .box5{
     background-image: url('image/pic2.png');
     background-repeat: no-repeat;
     padding: 90px;
+    width: 100%;
 }
 .box8{
     background-image: url('image/pic3.png');
     background-repeat: no-repeat;
     padding: 90px;
+    width: 100%;
 }
 .box3, .box6, .box9{
     background-color: gray;
