@@ -45,11 +45,7 @@ a:hover{
     margin-left: 1%;
 }
 .image{
-    background-image: url('image/sofa.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-    width: 100%;
+    padding: 50px 0; 
 }
 .row1{
     display: flex;
@@ -68,30 +64,11 @@ a:hover{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 30px;
 }
-.box2{
-    background-image: url('image/pic1.png');
-    background-repeat: no-repeat;
-    padding: 90px; 
-    width: 100%;
-
-}
-.box5{
-    background-image: url('image/pic2.png');
-    background-repeat: no-repeat;
-    padding: 90px;
-    width: 100%;
-}
-.box8{
-    background-image: url('image/pic3.png');
-    background-repeat: no-repeat;
-    padding: 90px;
-    width: 100%;
-}
 .box3, .box6, .box9{
     background-color: gray;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
-    padding: 30px;
+    padding: 30px;  
 }
 .row2{
     display: flex;
@@ -170,6 +147,18 @@ span{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     padding: 40px;
+}
+@media only screen and (max-width:768px){
+    .row1 .cols1, .row1 .cols2, .row1 .cols3, .row2 .cols4, .row2 .cols5, .row2 .cols6{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .row1 .cols1, .row1 .cols2, .row1 .cols3, image,
+     .row2 .cols4, .row2 .cols5, .row2 .cols6, .fullrow .row3, .fullrow .row4, .center .center2{
+        width: 100%;
+    }
 }
 
 
