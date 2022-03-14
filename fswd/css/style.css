@@ -3,11 +3,11 @@
 }
 .fluid{
     background-color: gray;
-    padding: 50px 100px;
+    padding: 30px;
 }
 .box{
     background-color: white;
-    padding:  10px 50px;
+    padding:  20px;
 }
 .menu a{
     text-decoration: none;
@@ -148,15 +148,15 @@ span{
     text-align: center;
     padding: 40px;
 }
-@media only screen and (max-width:768px){
-    .row1 .cols1, .row1 .cols2, .row1 .cols3, .row2 .cols4, .row2 .cols5, .row2 .cols6{
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width:576px){
+/*@media only screen and (max-width:576px){
     .row1 .cols1, .row1 .cols2, .row1 .cols3, image,
      .row2 .cols4, .row2 .cols5, .row2 .cols6, .fullrow .row3, .fullrow .row4, .center .center2{
+        width: 100%;
+    }
+}*/
+
+@media only screen and (max-width:576px){
+    .fluid .box{
         width: 100%;
     }
 }
