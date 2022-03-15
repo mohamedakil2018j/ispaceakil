@@ -122,14 +122,23 @@ li{
     flex-wrap: no-wrap;
 
 }
-.contain1, .contain3{
+.contain1{
     background-color: greenyellow;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2cm;
-    padding: 15px;
+    padding: 10px;
     
 }
+.contain3{
+    background-color: greenyellow;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2cm;
+    padding: 30px; 
+   
+}
+
 .contain2, .contain4{
     background-color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -159,7 +168,7 @@ span{
 }
 @media only screen and (max-width:576px){
     .fluid .box .row1 .cols1, .row1 .cols2, .row1 .cols3, image,
-     .row2 .cols4, .row2 .cols5, .row2 .cols6, .fullrow .row3, .fullrow .row4,.center .center2{
+     .row2 .cols4, .row2 .cols5, .row2 .cols6, .fullrow .row3 .contain2, .fullrow .row4 .contain4,.center .center2{
         width: 100%;
     }
 }
