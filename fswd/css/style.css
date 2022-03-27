@@ -9,25 +9,7 @@
     background-color: white;
     padding:  20px;
 }
-.menu a{
-    text-decoration: none;
-    color: black;  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-ul{
-    list-style: none;
-    text-align:center;
 
-}
-li{
-    display: inline-block;
-    padding: 20px;
-
-}
-.li, a:hover{
-    background-color: greenyellow;
-    padding: 5px 5px;  
-}
 .center{
     display: flex;
     flex-wrap: wrap;
@@ -160,17 +142,12 @@ span{
     text-align: center;
     padding: 20px;
 }
-@media only screen and (max-width:768px){
-    .fluid .box .row1 .cols1, .row1 .cols2, .row1 .cols3, image,
-     .row2 .cols4, .row2 .cols5, .row2 .cols6, .fullrow .row3, .fullrow .row4, .center .center2{
-        width: 100%;
-    }
-}
+
 @media only screen and (max-width:576px){
     .fluid .box .row1 .cols1, .row1 .cols2, .row1 .cols3, image,
-     .row2 .cols4, .row2 .cols5, .row2 .cols6, .fullrow .row3 .contain2, .fullrow .row4 .contain4,.center .center2{
-        width: 100%;
-    }
+    .row2 .cols4, .row2 .cols5, .row2 .cols6, .fullrow .row3, .fullrow .row4, .center .center2{
+       width: 100%;
+   }
 }
 
 
