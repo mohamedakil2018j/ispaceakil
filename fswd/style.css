@@ -3,30 +3,11 @@
 }
 .fluid{
     background-color: gray;
-    padding: 50px 100px;
+    padding: 30px;
 }
 .box{
     background-color: white;
-    padding:  10px 50px;
-}
-.menu a{
-    text-decoration: none;
-    color: black;  
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-ul{
-    list-style: none;
-    text-align:center;
-
-}
-li{
-    display: inline-block;
-    padding: 40px;
-
-}
-a:hover{
-    background-color: greenyellow;
-    padding: 20px 10px;  
+    padding:  20px;
 }
 .center{
     display: flex;
@@ -45,10 +26,7 @@ a:hover{
     margin-left: 1%;
 }
 .image{
-    background-image: url('image/sofa.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
+    padding: 25px 0; 
 }
 .row1{
     display: flex;
@@ -57,7 +35,7 @@ a:hover{
 }
 .cols1, .cols2, .cols3{
     width: 33.33333333%;
-    padding: 20px;
+    padding: 10px;
     
 }
 .box1, .box4, .box7{
@@ -65,28 +43,13 @@ a:hover{
     color: white;
     font-size: 0.7cm;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 30px;
-}
-.box2{
-    background-image: url('image/pic1.png');
-    background-repeat: no-repeat;
-    padding: 90px;
-}
-.box5{
-    background-image: url('image/pic2.png');
-    background-repeat: no-repeat;
-    padding: 90px;
-}
-.box8{
-    background-image: url('image/pic3.png');
-    background-repeat: no-repeat;
-    padding: 90px;
+    padding: 15px;
 }
 .box3, .box6, .box9{
     background-color: gray;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
-    padding: 30px;
+    padding: 15px;  
 }
 .row2{
     display: flex;
@@ -95,12 +58,12 @@ a:hover{
 .cols4, .cols5, .cols6{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 33.33333333%;
-    padding: 20px;
+    padding: 10px;
 }
 .text1, .text3{
     font-size: 0.8cm; 
     color: gray;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 .text2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -108,7 +71,7 @@ a:hover{
 .text4{
     color: greenyellow;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-bottom: 15px;   
+    padding-bottom: 7px;   
     font-size: 0.5cm;
 }
 .text5{
@@ -116,10 +79,12 @@ a:hover{
     padding-bottom: 10px;
 }
 .text6{
-    background-color: gray;
     color: white;
-    padding: 15px;
-    width: 40%;
+    width: 20%;
+}
+.text6 a{
+    text-decoration: none;
+    color: white;
 }
 .fullrow{
     display: flex;
@@ -130,21 +95,30 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
-    padding: 10px;
+    padding: 5px;
 }
 .cols7, .cols8{
     display: flex;
     flex-wrap: no-wrap;
 
 }
-.contain1, .contain3{
+.contain1{
     background-color: greenyellow;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2cm;
-    padding: 25px;
+    padding: 10px;
     
 }
+.contain3{
+    background-color: greenyellow;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2cm;
+    padding: 30px; 
+   
+}
+
 .contain2, .contain4{
     background-color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -153,21 +127,25 @@ a:hover{
 p{
     color: greenyellow;
     font-size: 0.5cm;
-    padding: 10px;
+    padding: 5px;
 }
 span{
     color: white;
     font-size: medium;
-    padding:10px;
+    padding:7px;
 }
 
 .end{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-    padding: 40px;
+    padding: 20px;
+}
+
+@media only screen and (max-width:576px){
+    .fluid .box .row1 .cols1, .row1 .cols2, .row1 .cols3, image,
+    .row2 .cols4, .row2 .cols5, .row2 .cols6, .fullrow .row3, .fullrow .row4, .center .center2{
+       width: 100%;
+   }
 }
 
 
-
-   
-    
